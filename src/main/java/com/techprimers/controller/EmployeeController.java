@@ -15,6 +15,7 @@ public class EmployeeController {
     public ArrayList<Employee> readEmployees() {
 
         Employee employee1 = new Employee();
+        System.out.println("adding first employee");
         employee1.setName("kishore"); employee1.setGender("male");
         employee1.setDateOfBirth("10/29/1990"); employee1.setAnnualSalary(25000); employee1.setCode("emp101");
 

@@ -1,6 +1,6 @@
-package com.techprimers.controller;
+package corejavatutotials;
 
-public class JavaOperators {
+public class CJ_100_JavaOperators {
     public static void main (String[] args) {
         int num1 = 10;
         int num2 = 20;
