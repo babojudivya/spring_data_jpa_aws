@@ -1,5 +1,6 @@
 package com.techprimers.controller;
 
+import com.sun.xml.internal.ws.api.FeatureConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,12 +13,14 @@ public class EmployeeController {
 
     @GetMapping("/employees")
     @CrossOrigin
+
     public ArrayList<Employee> readEmployees() {
 
         Employee employee1 = new Employee();
         System.out.println("adding first employee");
         employee1.setName("kishore"); employee1.setGender("male");
         employee1.setDateOfBirth("10/29/1990"); employee1.setAnnualSalary(25000); employee1.setCode("emp101");
+
 
         Employee employee3 = new Employee();
         employee3.setName("sreeja"); employee3.setGender("female");
